@@ -1,0 +1,539 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    background-size: 200% 200%;
+  }
+
+.logo img {
+  max-width: 65px; 
+  height: auto;
+  margin-right: 1rem;
+  margin-left: 50px;
+}
+
+.header-content {
+  flex: 1; 
+  line-height: 0.3;
+}
+
+.white-separator {
+  border: none;
+  border-top: 1px solid #8E8E8E;
+  margin: 1rem 0;
+  width: 80px;
+  
+}
+
+.white-separator2 {
+  border: none;
+  border-top: 1px solid #8E8E8E;
+  width: 1400px;
+  margin-bottom: 5%;
+  justify-content: center;
+}
+
+.white-separator3 {
+  border: none;
+  border-top: 1px solid #ffffff;
+  margin-left: 3%;
+  width: 1750px;
+  margin-bottom: 5%;
+}
+
+  .header-config {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    color: #fff;
+    padding: 5px;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  aside {
+  margin-left: 2%;
+    width: 40%;
+    height: 50%;
+    padding: 10px;
+    color: #ccc;
+  }
+
+  .products-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 75%;
+  }
+
+  .product {
+    width: calc(33.33% - 10px);
+    margin-left: 10px;
+    position: relative;
+  }
+
+  .product-image {
+    width: 95%;
+    margin-right: 10px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    text-align: right;
+    
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+
+  div.banner {
+      position: relative;
+      background-color: #fff;
+      background-size: cover;
+      background-position: center;
+  }
+  .content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    max-width: 80%;
+  }
+  
+  .texto1-banner1 {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-size: 24px;
+    text-align: left;
+    font-family: 'Glacial Indifference', sans-serif;
+    color: #FE00B9;
+    font-size: 40px;
+    line-height: 0.5;
+    letter-spacing: 8px;
+    opacity: 0; 
+    animation: fade-in 2s forwards;
+  }
+
+  .texto2-banner1 {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    color: white;
+    font-size: 24px;
+    text-align: left;
+    font-family: 'Glacial Indifference', sans-serif;
+    font-size: 40px;
+    opacity: 0; 
+    animation: fade-in 2s forwards;
+  }
+
+  .texto1-banner2 {
+    position: absolute;
+    top: 13%;
+    left: 55%;
+    font-size: 24px;
+    text-align: left;
+    color: #FE00B9;
+  }
+
+  .texto2-banner2 {
+    position: relative;
+    top: 35%;
+    left: 55%;
+    text-align: left;
+    color: #ffffff;
+    font-size: 24px;
+  }
+
+  .texto1 {
+    position: center;
+    top: 20%;
+    font-size: 24px;
+    text-align: center;
+    color: #FE00B9;
+  }
+
+  .texto2 {
+    position: center;
+    margin-top: 8%;
+    margin-left: 38%;
+    margin-bottom: 5%;
+    font-size: 24px;
+    text-align: center;
+    color: #ffffff;
+
+  }
+
+  div#banner1 {
+    background-image: url("AVB TI SITE/personalização/banner de lógica.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1200vh;
+    height: 50vw;
+    display: flex;
+    opacity: 0; 
+    animation: fade-in 2s forwards;
+  }
+  div#banner2   {
+    background-image: url("AVB TI SITE/personalização/Desktop Lógica.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    height: 2000vh;
+    height: 50vw;
+    display: flex;
+    opacity: 0; 
+    animation: fade-in 2s forwards;
+  }
+
+  .banner3 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .banner4 {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .banner5 {
+    background-image: url("AVB TI SITE/personalização/Gradiente.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1200vh;
+    height: 50vw;
+    display: flex;
+    opacity: 0; 
+    animation: fade-in 2s forwards;
+  }
+
+  .linkb1 {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .linkb1:hover {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #aaaaaa;
+  }
+
+  .textos {
+    position: relative;
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    font-size: 24px;
+    text-align: left;
+  }
+
+  .text-container {
+    display: inline-block;
+    color: #fff;
+    margin-left: 100px;
+    margin-left: 50px;
+  }
+
+  .image-gallery {
+    display: flex;
+    justify-content: center;
+}
+
+.image-item {
+    position: relative;
+    flex: -10; 
+    padding: 25px;
+    text-align: center;
+    opacity: 0; 
+    animation: fade-in 2s forwards;
+}
+
+.image-item img {
+  max-width: 100%;
+  height: auto;
+  position: center;
+}
+
+.image-item:hover {
+  transform: scale(1.05);
+  transition: .6s;
+} 
+
+.overlay {
+    position: absolute;
+    top: 88%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background-color: #05101d52; 
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+}
+
+.overlay p {
+    margin: 0;
+    font-size: 12px; 
+    text-align: left;
+    font-weight: bold;
+    
+}
+
+.footer {
+  position: relative;
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.background-image {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('AVB TI SITE/personalização/Gradiente.png'); 
+  background-size: cover;
+  opacity: 0.5; 
+}
+
+.columns {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.column {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.column h3 {
+  margin-bottom: 10px;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column li {
+  margin-bottom: 5px;
+}
+
+.newsletter-box {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.newsletter-box h2 {
+  margin-bottom: 10px;
+}
+
+.newsletter-box p {
+  margin-bottom: 20px;
+}
+
+.newsletter-box form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter-box input[type="email"] {
+  width: 250px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  background-color: #ffffff9a;
+  color: #fe00ba;
+}
+
+.newsletter-box button[type="submit"] {
+  background-color: #FE00B9;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+}
+
+.buy-button {
+  position: absolute;
+  padding: 5px 20px;
+  background-color: #00F0FF;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 30px;
+  margin-left: 2%;
+  font-weight: 400;
+  animation: clique 1s ease alternate infinite;
+  
+}
+
+.buy-button:hover {
+  background-color: #00747c;
+  color: #ffffff;
+}
+
+.buy-button2 {
+  position: absolute;
+  padding: 5px 20px;
+  background-color: #00F0FF;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 30px;
+  margin-top: 10%;
+  font-weight: 200;
+  animation: clique 1s ease alternate infinite;
+}
+
+.buy-button2:hover {
+  background-color: #00747c;
+  color: #ffffff;
+}
+
+
+
+
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+#message-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  animation: slide-in 0.7s;
+  color: #000000;
+}
+
+#closeButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #000000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#closeButton:focus {
+  outline: none;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translate(-50%, -70%);
+  }
+  to {
+    transform: translate(-50%, -50%);
+    opacity: 2;
+  }
+}
+
+@keyframes clique {
+  to {
+    transform: translateY(8px);
+  }
+}
+
+@keyframes fade-in {
+  to {
+      opacity: 1;
+  }
+}
+
+@media screen and (max-width: 768px){
+
+  .texto1-banner1 {
+    top: 5%;
+    left: 5%;
+    font-size: 15px;
+  }
+
+  .texto2-banner1 {
+    left: 5%;
+    font-size: 24px;
+  }
+
+  .texto1-banner2 {
+    top: -10%;
+    font-size: 15px;
+  }
+
+  .texto2-banner2 {
+   
+    top: 25%;
+    font-size: 24px;
+  }
+
+  .banner3 {
+    width: 650px;
+    height: 100px;
+  }
+
+  
+  .image-gallery {
+    flex-direction: column;
+}
+.texto1 {
+  font-size: 20px;
+}
+
+.banner4 {
+  width: 650px;
+    height: 80px;
+}
+
+.buy-button {
+  font-weight: 400;
+  animation: clique 1s ease alternate infinite;
+}
+
+.columns {
+  margin-left: 20%;
+  flex-direction: column;
+  justify-content: center;
+}
+}
